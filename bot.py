@@ -1,6 +1,8 @@
 from telegram import Bot, Update
 from telegram.ext import CommandHandler, MessageHandler, Filters, Updater
 
+import os
+
 TOKEN = "5231646387:AAG1qWow9zgkit_TWtEV1Q_zEPdw7dBIVvw"
 PORT = int(os.environ.get('PORT', '8443'))
 # handlers
