@@ -49,4 +49,5 @@ async def bot():
 
 
 if __name__ == '__main__':
+    print("Hello")
     asyncio.run(app.run())
